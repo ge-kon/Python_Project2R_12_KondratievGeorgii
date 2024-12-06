@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Узнать погоду</title>
+</head>
+<body>
+    <h1>Проверка погодных условий</h1>
+    <form method="POST">
+        <label for="start_point">Начальная точка (город или координаты, например: "Москва" или "55.7558, 37.6173"):</label>
+        <input type="text" id="start_point" name="start_point" required>
+        <br><br>
+        <label for="end_point">Конечная точка (город или координаты, например: "Сочи" или "43.5855, 39.7232"):</label>
+        <input type="text" id="end_point" name="end_point" required>
+        <br><br>
+        <button type="submit">Проверить погоду</button>
+    </form>
+</body>
+</html>

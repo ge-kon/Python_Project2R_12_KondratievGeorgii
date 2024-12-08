@@ -112,6 +112,7 @@ def index():
             return render_template('result.html', start=start['feedback'], end=end['feedback'])
 
         except Exception as e:
+            print(e)
             return render_template('error.html', error=f'{e}')
 
     return render_template('index.html')
